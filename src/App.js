@@ -8,8 +8,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Kiruba Kiruba hi venkatesh</h1>
-      <h6>balaji balaji balaji balaji</h6>
       <TopNavBar />
       <SideBar />
       <Lander />
