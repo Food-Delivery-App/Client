@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn thozhil sir Balaji w
+          Learn thozhil sir venkat is k2k2
         </a>
       </header>
     </div>
