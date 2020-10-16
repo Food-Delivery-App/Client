@@ -6,8 +6,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Kiruba Kiruba hi</h1>
-      <h6>balaji balaji </h6>
+      <h1>Kiruba Kiruba hi venkatesh</h1>
+      <h6>balaji balaji balaji balaji</h6>
       <Test />
     </div>
   ); 
