@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn thozhil
+          Learn thozhil sir
         </a>
       </header>
     </div>
