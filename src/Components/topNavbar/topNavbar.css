@@ -1,0 +1,22 @@
+.search_dropdown{
+    background-color:#f3f3f3 !important;
+    border-color: #f3f3f3 !important;
+    color:#000000 !important;
+    border-radius: 0px !important;
+    border-top-left-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+}
+.brandName {
+    color:#fff !important;
+}
+.input_search {
+    border-radius: 0px !important;
+    width:30rem !important;
+}
+.input-group-append {
+    display:block !important;
+}
+.input_search:focus {
+    border: 3px solid #FEBD69 !important;
+    box-shadow: none !important;
+}
