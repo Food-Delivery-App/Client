@@ -1,0 +1,29 @@
+.lander-header{
+    width: 100%;
+    background-color: aqua;
+}
+.cardImgOne{
+    height: 40%;
+    width: 20%;
+}
+.cardTitle{
+    font-weight: 800;
+    color: blue;
+    cursor: pointer;
+}
+.card-header{
+    background-color: #ffffff !important;
+    border-bottom: 0px !important;
+}
+.carousel {
+    position: relative;
+    height: 260px !important;
+}
+.rowImg{
+    width: 160px !important;
+}
+.rowCard{
+    color: blue;
+    cursor: pointer;
+    font-size: 15px;
+}
