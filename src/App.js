@@ -1,27 +1,18 @@
 import React, { Component } from 'react';
-import TopNavBar from './Components/topNavbar/topNavbar';
-import SideBar from './Components/sidebar/sidebar';
-import Lander from './Components/lander/lander';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Route } from "react-router-dom";
+import HomeLayout from "./layouts/homeLayouts";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
 
 function App() {
-  return (
-      <main>
-          <BrowserRouter>
-            <Switch>
-              <Route path="/" component={Lander} exact />
-              <Route path="/sidebar" component={SideBar} />
-              <Route path="/topnavbar" component={TopNavBar} />
-              <Route component={Error} />
-            </Switch>
-          </BrowserRouter>
-      </main>
-  );
+    return (
+        <div>
+            <Router>
+                <Route path="/" name="home" render={props => <HomeLayout {...props} />} />
+            </Router>
+        </div>
+    );
 }
-
-
-
+ 
 export default App;
