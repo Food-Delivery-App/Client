@@ -1,0 +1,36 @@
+.sidebar {
+    display:none !important;
+    position: fixed;
+    top: 0; 
+    bottom: 0; 
+    z-index: 1030;
+    display: flex;
+    flex: 0 0 256px;
+    flex-direction: column;
+    order: -1;
+    width: 300px;
+    padding: 0;
+    box-shadow: none;
+    background: #fff;
+}
+
+.sidebar-profile {
+    background-color: #232f3e;
+    color:#fff;
+    height: 50px;
+    align-items: center;
+}
+
+.customer-name {
+    display: inline-block;
+    font-size: 19px;
+    max-width: 90%;
+    color: #fff;
+    overflow: hidden;
+    padding: 10px 86px 10px;
+}
+
+.siderbar-content-header {
+    color: #969397;
+    padding: 10px;
+}

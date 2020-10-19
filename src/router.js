@@ -1,25 +1,23 @@
-import React from "react";
+import React from 'react';
 import { Redirect } from "react-router-dom";
 
-// Layout Types
-import  Main  from "./layout/main";
-import Deals from './Components/deals/deals'
+import { DefaultLayout } from "./layouts";
 
-// Route Views
-// import Home from "./views/Home/home";
-import Lander from './Components/lander/lander';
+import Lander from "./Components/lander/lander";
+import Deals from "./Components/deals/deals"
 
 export default [
     {
         path: "/",
         exact: true,
         component: Lander,
-        layout: Main,
+        layout: DefaultLayout
     },
     {
         path: "/deals",
         exact: true,
         component: Deals,
-        layout: Main,
+        layout: DefaultLayout
     }
 ];
+
