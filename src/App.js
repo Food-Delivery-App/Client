@@ -9,16 +9,12 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-      <main>
-          <BrowserRouter>
-            <Switch>
-              <Route path="/" component={Lander} exact />
-              <Route path="/sidebar" component={SideBar} />
-              <Route path="/topnavbar" component={TopNavBar} />
-              <Route component={Error} />
-            </Switch>
-          </BrowserRouter>
-      </main>
+    <div>
+      <TopNavBar />
+      <SideBar />
+      <Lander />
+    </div>
+
   );
 }
 
