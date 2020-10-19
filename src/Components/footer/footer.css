@@ -1,0 +1,12 @@
+.backToTop{
+    background-color: #37475A;
+    color: #ffffff;
+    cursor: pointer;
+}
+.anchor{
+    color: white !important;
+}
+.footerDown{
+    background-color: #232F3E;
+    color: #ffffff;
+}
