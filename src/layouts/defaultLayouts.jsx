@@ -2,12 +2,14 @@ import React from 'react'
 
 import TopNavBar from '../Components/topNavbar/topNavbar';
 import Sidebar from "../Components/sidebar/sidebar";
+import Footer from '../Components/footer/footer';
 
 const DefaultLayout = ({ children }) => (
     <React.Fragment>
         <TopNavBar />
         <Sidebar />
         {children}
+        <Footer/>
     </React.Fragment>
 );
 
