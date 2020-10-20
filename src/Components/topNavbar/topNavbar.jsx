@@ -4,6 +4,8 @@ import flag from '../../images/indianflag.svg';
 import shoppingcart from '../../images/shoppingcart.svg';
 import hamburger from '../../images/hamburger.svg';
 import search from '../../images/search.svg';
+import "../sidebar/sideBar.css";
+import "../sidebar/sidebar";
 
 import {
   Collapse,
@@ -26,30 +28,37 @@ import {
   PopoverBody,
   Row,
   Col
-} from "reactstrap";
+} from "reactstrap"; 
 
 const TopNavbar = (props) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [popoverOpen, setPopoverOpen] = useState(false);
   const [signInPopover, setSignInPopover] = useState(false);
   const [primePopover, setPrimePopover] = useState(false);
+  const [clicked,setClicked] = useState(false);
   const toggle = () => setDropdownOpen((prevState) => !prevState);
   const popOver = () => setPopoverOpen((prevState) => !prevState);
   const signInPopOver = () => setSignInPopover((prevState) => !prevState);
   const primePopOver = () => setPrimePopover((prevState) => !prevState);
+
+  if(clicked === true) {
+    var element = document.getElementById("sidebar-display");
+    element.classList.remove("sidebar-hide");
+  }
+  
   return (
     <div>
       <Navbar color="dark" light expand="md">
         <div>
-          <i class="hm-icon nav-sprite"></i>
+          <i className="hm-icon nav-sprite"></i>
         </div>
         
         <NavbarToggler onClick={toggle} />
         <Collapse navbar>
           <Nav className="mr-auto" navbar>
-          <DropdownToggle className="hamburger">
+          <div className="hamburger" onClick={() => setClicked(true)}>
               <img src={hamburger}  width="30px" />
-            </DropdownToggle>
+            </div>
             <NavbarBrand href="/" className="brandName ml-2">
               Discount Bazaar
             </NavbarBrand>

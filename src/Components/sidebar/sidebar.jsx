@@ -1,5 +1,7 @@
 import React from 'react';
 import './sideBar.css';
+import close from '../../images/close-white.svg';
+import user from '../../images/user-white.svg';
 
 import { TreeView } from '@progress/kendo-react-treeview';
 
@@ -30,11 +32,17 @@ class SideBar extends React.Component {
         this.forceUpdate();
     }
 
+    closeSidebar = (event) => {
+        var element = document.getElementById("sidebar-display");
+        element.classList.add("sidebar-hide");
+    }
+
     render() {
         return(
-            <div className="sidebar">
+            <div id="sidebar-display" className="sidebar sidebar-hide">
                 <div className="sidebar-profile">
-                    <div className="customer-name"><b>Hello,Prasanth</b></div>
+                    <div className="customer-details"><span><img src={user} width="30px"/></span><span className="customer-name"><b>Hello,Balaji</b></span></div>
+                    <img src={close} className="close-image" onClick={this.closeSidebar} />
                 </div>
                 <div className="sidebar-content">
                     <div className="siderbar-content-header">SHOP BY CATEGORY</div>
