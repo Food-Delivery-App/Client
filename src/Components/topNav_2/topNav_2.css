@@ -34,21 +34,21 @@
     right: 52px !important;
     top: 6px !important;
 }
-.signin_popover {
+.topNav_2_signin_popover {
     background-color:#232F3E!important;
     border-color: #232F3E!important;
     color:#fff !important;
     padding:4px !important;
     height:1.6rem !important;
 }
-.signin_popover:hover {
+.topNav_2_signin_popover:hover {
     background-color:#232F3E!important;
     border-color: #fff !important;
     color:#fff !important;
     border-radius: 0px !important;
     padding:4px !important;
 }
-.user_name {
+.topNav_2_user {
     margin-bottom:0px !important;
     font-size:13px !important;
     white-space:nowrap !important;
@@ -78,4 +78,5 @@
 }
 .topnav_2 {
     background-color: #232F3E !important;
+    padding: 2px !important;
 }

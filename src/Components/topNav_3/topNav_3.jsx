@@ -1,32 +1,22 @@
-import React, { useState } from "react";
+import React from 'react';
+import { useState } from 'react';
 import "./topNav_3.css";
-import location_marker from "../../images/location_marker.svg";
-import festivalShop from "../../images/festivalShop.jpg";
+
 
 import {
   Collapse,
   Navbar,
-  NavbarToggler,
   NavbarBrand,
   Nav,
-  Dropdown,
   DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-  InputGroup,
-  InputGroupAddon,
-  InputGroupText,
-  Input,
-  Button,
   Popover,
   PopoverHeader,
-  PopoverBody,
   Row,
   Col,
 } from "reactstrap";
 
-const TopNavbar = (props) => {
+const TopbarThree = (props) => {
+
   const [women, setWomen] = useState(false);
   const [men, setMen] = useState(false);
   
@@ -52,11 +42,19 @@ const TopNavbar = (props) => {
               isOpen={women}
               target="women"
               toggle={setWomens}
+              className="nav3Popover"
             >
               <PopoverHeader>
                 <Row>
-                  <Col md="6">hello</Col>
-                  <Col md="6">hi</Col>
+                  <Col md="2 offset-md-1">
+                  <p>hello</p>
+                  <p>how</p>
+                  <p>are</p>
+                  <p>you</p>
+                  </Col>
+                  <Col col="md-4">
+                  hai
+                  </Col>
                 </Row>
               </PopoverHeader>
             </Popover>
@@ -78,7 +76,6 @@ const TopNavbar = (props) => {
                 </Row>
               </PopoverHeader>
             </Popover>
-            
           </Nav>
         </Collapse>
       </Navbar>
@@ -86,4 +83,4 @@ const TopNavbar = (props) => {
   );
 };
 
-export default TopNavbar;
+export default TopbarThree;

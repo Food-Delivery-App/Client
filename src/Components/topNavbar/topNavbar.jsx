@@ -39,7 +39,7 @@ const TopNavbar = (props) => {
   const primePopOver = () => setPrimePopover((prevState) => !prevState);
   return (
     <div>
-      <Navbar color="dark" light expand="md">
+      <Navbar className="topNavBar" light expand="md">
         <div>
           <i class="hm-icon nav-sprite"></i>
         </div>
@@ -47,7 +47,7 @@ const TopNavbar = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse navbar>
           <Nav className="mr-auto" navbar>
-          <DropdownToggle className="hamburger">
+          <DropdownToggle className="hamburger" onClick={() => {}}>
               <img src={hamburger}  width="30px" />
             </DropdownToggle>
             <NavbarBrand href="/" className="brandName ml-2">
