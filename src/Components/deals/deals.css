@@ -1,0 +1,19 @@
+.Tab{
+    color: black !important;
+}
+.iMnhxj .selected a {
+    color: #555!important;
+    font-weight: 700;
+}
+.selected{
+    border-bottom: 2px solid #E77600 !important;
+}
+a{
+    cursor: pointer !important;
+}
+.content{
+    border-top: 1px solid grey !important;
+}
+.available{
+    height: 350px !important;
+}
