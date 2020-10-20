@@ -6,27 +6,11 @@ import festivalShop from "../../images/festivalShop.jpg";
 import {
   Collapse,
   Navbar,
-  NavbarToggler,
-  NavbarBrand,
   Nav,
-  Dropdown,
   DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-  InputGroup,
-  InputGroupAddon,
-  InputGroupText,
-  Input,
-  Button,
-  Popover,
-  PopoverHeader,
-  PopoverBody,
-  Row,
-  Col,
 } from "reactstrap";
 
-const TopNavbar = (props) => {
+const topBar = (props) => {
   return (
     <div>
       <Navbar className="topnav_2" light expand="md">
@@ -42,31 +26,31 @@ const TopNavbar = (props) => {
                 <p className="address">Chennai 600113</p>
               </div>
             </DropdownToggle>
-            <DropdownToggle className="signin_popover amazonPay">
-              <p className="user_name">Amazon Pay</p>
+            <DropdownToggle className="topNav_2_signin_popover amazonPay">
+              <p className="topNav_2_user">Amazon Pay</p>
             </DropdownToggle>
 
-            <DropdownToggle className="signin_popover ml-2">
-              <p className="user_name">Balaji's Amazon.in</p>
+            <DropdownToggle className="topNav_2_signin_popover ml-2">
+              <p className="topNav_2_user">Balaji's Amazon.in</p>
             </DropdownToggle>
 
-            <DropdownToggle className="signin_popover ml-2">
-              <p className="user_name">Mobiles</p>
+            <DropdownToggle className="topNav_2_signin_popover ml-2">
+              <p className="topNav_2_user">Mobiles</p>
             </DropdownToggle>
 
-            <DropdownToggle className="signin_popover ml-2">
-              <p className="user_name">Best Sellers</p>
+            <DropdownToggle className="topNav_2_signin_popover ml-2">
+              <p className="topNav_2_user">Best Sellers</p>
             </DropdownToggle>
 
-            <DropdownToggle className="signin_popover ml-2">
-              <p className="user_name">Today's Deals</p>
+            <DropdownToggle className="topNav_2_signin_popover ml-2">
+              <p className="topNav_2_user">Today's Deals</p>
             </DropdownToggle>
 
-            <DropdownToggle className="signin_popover ml-2">
-              <p className="user_name">Customer Service</p>
+            <DropdownToggle className="topNav_2_signin_popover ml-2">
+              <p className="topNav_2_user">Customer Service</p>
             </DropdownToggle>
-            <DropdownToggle className="signin_popover ml-2">
-              <p className="user_name">Pantry</p>
+            <DropdownToggle className="topNav_2_signin_popover ml-2">
+              <p className="topNav_2_user">Pantry</p>
             </DropdownToggle>
             <DropdownToggle className="festivalImg">
               <img src={festivalShop} className="festivalshop" />
@@ -78,4 +62,4 @@ const TopNavbar = (props) => {
   );
 };
 
-export default TopNavbar;
+export default topBar;

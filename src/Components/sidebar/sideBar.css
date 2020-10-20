@@ -1,5 +1,4 @@
 .sidebar {
-    display:none !important;
     position: fixed;
     top: 0; 
     bottom: 0; 
@@ -14,6 +13,14 @@
     background: #fff;
 }
 
+.sidebar-hide {
+    display:none !important;
+}
+
+.sidebar-show {
+    display:block !important;
+}
+
 .sidebar-profile {
     background-color: #232f3e;
     color:#fff;
@@ -21,16 +28,28 @@
     align-items: center;
 }
 
-.customer-name {
+.customer-details {
     display: inline-block;
     font-size: 19px;
     max-width: 90%;
     color: #fff;
     overflow: hidden;
-    padding: 10px 86px 10px;
+    padding: 10px 40px;
+}
+
+.customer-name {
+    padding-left: 10px;
 }
 
 .siderbar-content-header {
     color: #969397;
     padding: 10px;
+}
+
+.close-image {
+    width: 35px;
+    cursor: pointer;
+    position: fixed;
+    top: 9px;
+    left: 15rem;
 }

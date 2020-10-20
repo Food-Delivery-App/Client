@@ -24,3 +24,7 @@
     text-align:left !important;
     border: 2px solid F3A847 !important;
 }
+.nav3Popover {
+    height: 10rem !important;
+    width: 10rem !important;
+}
