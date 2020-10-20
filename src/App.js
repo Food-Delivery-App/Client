@@ -4,7 +4,6 @@ import { Route } from "react-router-dom";
 import HomeLayout from "./layouts/homeLayouts";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 function App() {
     return (
         <div>
