@@ -27,3 +27,9 @@
     cursor: pointer;
     font-size: 15px;
 }
+.container-fluid{
+    /* padding: 0% !important; */
+}
+.cardDetails{
+    padding: 1rem !important;
+}

@@ -27,6 +27,7 @@ import rowImg2 from '../../images/rowImg2.jpg';
 import rowImg3 from '../../images/rowImg3.jpg';
 import { Row, Col } from 'reactstrap';
 import emiImg from '../../images/emiImg.jpg';
+import { Link } from 'react-router-dom';
 
 const items = [
   {
@@ -106,7 +107,7 @@ const Lander = (props) => {
       </Carousel>
 
       
-      <Row>
+      <Row className='cardDetails'>
         <Col sm="3">
           <Card>
             <CardHeader className="card-header">
@@ -114,7 +115,7 @@ const Lander = (props) => {
             </CardHeader>
             <CardImg className='p-3'  top width="100%"  src={cardImg1} alt="Card image cap" />
             <CardBody>
-              <CardTitle className="cardTitle">See all Prime early deals</CardTitle>
+              <CardTitle className="cardTitle"><Link to='/deals'>See all Prime early deals</Link></CardTitle>
             </CardBody>
           </Card>
         </Col>
