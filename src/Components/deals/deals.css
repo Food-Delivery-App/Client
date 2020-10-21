@@ -4,6 +4,7 @@
 .iMnhxj .selected a {
     color: #555!important;
     font-weight: 700;
+    height: 36rem !important;
 }
 .selected{
     border-bottom: 2px solid #E77600 !important;
@@ -16,4 +17,13 @@ a{
 }
 .available{
     height: 350px !important;
+}
+
+.viewDealBtn {
+    background: #f0c14b !important;
+    border-color: #a88734 #9c7e31 #846a29 !important;
+    color: #111 !important;
+}
+.iMnhxj {
+    height: 36rem !important;
 }

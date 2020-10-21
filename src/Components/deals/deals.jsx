@@ -20,21 +20,74 @@ class Deals extends Component {
 
         return (
             <div className='container-fluid'>
-                <Row>
+                <Row className='container-fluid'>
                     <Col md='12'>
                         <Tabs headers={headers} className='Tab'>
                             <Tab>
-                                <img className='available mt-3' src={mobImg1} />
-                                <h5>Deals of the Day</h5>
-                                <b>₹10,00 - ₹13,990</b>
-                                <p>Ends in 7:10:24</p>
-                                <Button>View Deal</Button>
+                                <Row>
+                                    <Col md='3'>
+                                        
+                                        <img className='available mt-3' src={mobImg3} />
+                                        <div className='pl-3'>    
+                                            <h5>Deals of the Day</h5>
+                                            <b>₹10,00 - ₹13,990</b>
+                                            <p>Ends in 7:10:24</p>
+                                            <Button className='viewDealBtn w-50'>View Deal</Button>
+                                        </div>
+                                        
+                                    </Col>
+
+                                    <Col md='3'>
+                                        <img className='available mt-3' src={mobImg3} />
+                                        <div className='pl-3'>    
+                                            <h5>Deals of the Day</h5>
+                                            <b>₹10,00 - ₹13,990</b>
+                                            <p>Ends in 7:10:24</p>
+                                            <Button className='viewDealBtn w-50'>View Deal</Button>
+                                        </div>
+                                    </Col>
+
+                                    <Col md='3'>
+                                        <img className='available mt-3' src={mobImg3} />
+                                        <div className='pl-3'>    
+                                            <h5>Deals of the Day</h5>
+                                            <b>₹10,00 - ₹13,990</b>
+                                            <p>Ends in 7:10:24</p>
+                                            <Button className='viewDealBtn w-50'>View Deal</Button>
+                                        </div>
+                                    </Col>
+
+                                    <Col md='3'>
+                                        <img className='available mt-3' src={mobImg3} />
+                                        <div className='pl-3'>    
+                                            <h5>Deals of the Day</h5>
+                                            <b>₹10,00 - ₹13,990</b>
+                                            <p>Ends in 7:10:24</p>
+                                            <Button className='viewDealBtn w-50'>View Deal</Button>
+                                        </div>
+                                    </Col>
+                                    
+                                </Row>
+                                
                             </Tab>
                             <Tab>
-                                <h6>Upcoming</h6>
+                                <Row>
+                                    <Col md='3'>
+                                    <img className='available mt-3' src={mobImg2} />
+                                        <div className='pl-3'>    
+                                            <h5>Deals of the Day</h5>
+                                            <b>₹10,00 - ₹13,990</b>
+                                            <p>Ends in 7:10:24</p>
+                                            <Button className='viewDealBtn w-50'>View Deal</Button>
+                                        </div>
+                                    </Col>
+                                    <Col md='3'></Col>
+                                    <Col md='3'></Col>
+                                    <Col md='3'></Col>
+                                </Row>
                             </Tab>
                             <Tab>
-                                <h6>Missed</h6>
+                                <h6>Nothing To Show</h6>
                             </Tab>
                         </Tabs>
                     </Col>
