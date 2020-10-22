@@ -10,6 +10,7 @@ import mobImg3 from '../../images/mobImg3.webp';
 import dealLandImg from '../../images/dealsLandImg1.jpg'
 import ReactStars from "react-rating-stars-component";
 import { render } from "react-dom";
+import { Link } from 'react-router-dom'
 
 
 const headers = ['All Availables', 'Upcoming', 'Missed']
@@ -120,7 +121,7 @@ const  Deals = (props)=>{
                                         <span className='dealBadges mt-2'>Deals of the Day</span> <br/> <br/>
                                         <b className='price'>₹10,00 - ₹13,990</b> <br/>
                                         <span className='time'>Ends in 7:10:24</span><br/>
-                                        <a href='' className='mr-2'>OnePlus Nord I Starting Rs.27999 I Buy Now</a> <br/>
+                                        <a href='' className='mr-2'>OnePlus Nord I Starting Rs.27999 I Buy Now </a> <br/>
                                         
                                         <span className='time'>Sold by RKLLP and Fulfilled by Amazon.</span><br/>
                                         <ReactStars
