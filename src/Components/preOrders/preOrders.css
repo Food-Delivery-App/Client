@@ -1,6 +1,7 @@
 .mobileImg {
     width: 70% !important;
     align-items: center !important;
+    padding: 20px !important;
 }
 .choice {
     border: 1px solid red !important;
@@ -12,6 +13,10 @@
 .modelName {
     margin-bottom: 0px !important;
     color: #0066c0 !important;
+    cursor: pointer !important;
+}
+.modelName:hover {
+    color: #c45500 !important;
 }
 .brand_Name {
     font-size: 11px !important;
@@ -20,6 +25,7 @@
     color: #B12704!important;
     font-size: 13px !important;
     font-weight: bold !important;
+    cursor: pointer !important;
 }
 .prime_preorder {
     font-size: 10px !important;
@@ -56,4 +62,46 @@
 }
 .starrating_popover {
     width: 6rem !important;
+}
+.ratingpopover_preorder {
+    height: 14rem !important;
+    width: 30rem !important;
+}
+.ratingrange_preorder {
+    white-space: nowrap !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    padding-left: 1rem !important;
+    vertical-align: middle !important;
+}
+.globalrating_preorder {
+    white-space: nowrap !important;
+    color: #555 !important
+}
+.customerreview_preorder {
+    color: #2396C3 !important;
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+    cursor: pointer !important;
+}
+.starcolor_preorder {
+    color: #2396C3 !important;
+    cursor: pointer !important;
+}
+.starcolor_preorder:hover {
+    color: #2396C3 !important;
+    text-decoration: underline !important;
+}
+.save_preorder {
+    font-size: 13px !important;
+}
+.availablechoice_preorder {
+    text-align: center !important;
+    cursor: pointer !important;
+}
+.card_preorder {
+    border: none !important;
+}
+.sidebar_preorder {
+    border-right: 1px solid #ddd !important;
 }
