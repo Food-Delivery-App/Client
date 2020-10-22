@@ -44,8 +44,7 @@ const  Deals = (props)=>{
                                         <span className='dealBadges mt-2'>Deals of the Day</span> <br/> <br/>
                                         <b className='price'>₹10,00 - ₹13,990</b> <br/>
                                         <span className='time'>Ends in 7:10:24</span><br/>
-                                        <a href='' className='mr-2'>OnePlus Nord I Starting Rs.27999 I Buy Now</a> <br/>
-
+                                        <Link to='/preorders'>OnePlus Nord I Starting Rs.27999 I Buy Now</Link>
                                         <span className='time'>Sold by RKLLP and Fulfilled by Amazon.</span><br/>
                                         <ReactStars
                                             count={5}
