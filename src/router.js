@@ -1,12 +1,10 @@
 import React from 'react';
 import { Redirect } from "react-router-dom";
 
-import { DefaultLayout, OrderLayout } from "./layouts";
-
-
+import { DefaultLayout } from "./layouts";
 import Lander from "./Components/lander/lander";
 import Deals from "./Components/deals/deals";
-import Order from "./Components/order/order";
+import PreOrders from "./Components/preOrders/preOrders";
 
 export default [
     {
@@ -22,10 +20,10 @@ export default [
         layout: DefaultLayout
     },
     {
-        path: "/orders",
+        path: "/preorders",
         exact: true,
-        component: Order,
-        layout: OrderLayout
+        component: PreOrders,
+        layout: DefaultLayout
     }
 ];
 
