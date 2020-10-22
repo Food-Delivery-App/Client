@@ -27,14 +27,16 @@ class SideBar extends React.Component {
         event.item.selected = !event.item.selected;
         this.forceUpdate();
     }
-        onExpandChange = (event) => {
+    
+    onExpandChange = (event) => {
         event.item.expanded = !event.item.expanded;
         this.forceUpdate();
     }
 
     closeSidebar = (event) => {
         var element = document.getElementById("sidebar-display");
-        element.classList.add("sidebar-hide");
+        element.classList.remove("sidebar-show");
+        element.classList.add("sidebar-hide"); 
     }
 
     render() {

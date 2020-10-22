@@ -44,6 +44,7 @@ const TopNavbar = (props) => {
   if(clicked === true) {
     var element = document.getElementById("sidebar-display");
     element.classList.remove("sidebar-hide");
+    element.classList.add("sidebar-show"); 
   }
   
   return (
@@ -57,7 +58,7 @@ const TopNavbar = (props) => {
         <Collapse navbar>
           <Nav className="mr-auto" navbar>
           <div className="hamburger" onClick={() => setClicked(true)}>
-              <img src={hamburger}  width="30px" />
+              <img src={hamburger} className="hamburger-image" />
             </div>
             <NavbarBrand href="/" className="brandName ml-2">
               Discount Bazaar
