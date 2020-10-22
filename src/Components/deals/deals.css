@@ -16,7 +16,7 @@ a{
     border-top: 1px solid grey !important;
 }
 .available{
-    height: 350px !important;
+    height: 280px !important;
 }
 
 .viewDealBtn {
@@ -26,4 +26,34 @@ a{
 }
 .iMnhxj {
     height: 36rem !important;
+}
+.dealBadges{
+    font-size: 11px!important;
+    color: #FFF!important;
+    font-weight: 700!important;
+    background: #C45500 !important;
+    height: 18px !important;
+    max-width: 90% !important;
+    text-align: center !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    padding: 0 5px !important;
+    float: left !important;
+    overflow: hidden !important;
+}
+.price{
+    color: #cc1c39!important;
+}
+a, a:active, a:link, a:visited {
+    text-decoration: none !important;
+    /* color: #0066c0 !important; */
+    font-size: 13px !important;
+    line-height: 19px !important;
+}
+.time{
+    font-size: 11px !important;
+}
+.btn_deal {
+    padding: .275rem .75rem !important;
 }

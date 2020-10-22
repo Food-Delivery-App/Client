@@ -111,7 +111,7 @@ const Lander = (props) => {
         <Col sm="3">
           <Card>
             <CardHeader className="card-header">
-              <h4 className="font-weight-bold">Mobiles and accessories | Up to 40% off</h4>
+              <h4 className="font-weight-bold">Mobiles and accessories |  40% off</h4>
             </CardHeader>
             <CardImg className='p-3'  top width="100%"  src={cardImg1} alt="Card image cap" />
             <CardBody>
