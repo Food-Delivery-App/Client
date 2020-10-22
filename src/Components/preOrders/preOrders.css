@@ -1,0 +1,59 @@
+.mobileImg {
+    width: 70% !important;
+    align-items: center !important;
+}
+.choice {
+    border: 1px solid red !important;
+}
+.cardbody_mobile {
+    padding: 0px !important;
+    padding-top: 1rem !important;
+}
+.modelName {
+    margin-bottom: 0px !important;
+    color: #0066c0 !important;
+}
+.brand_Name {
+    font-size: 11px !important;
+}
+.price_preorder {
+    color: #B12704!important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+.prime_preorder {
+    font-size: 10px !important;
+}
+.prime_preorder_text {
+    font-size: 12px !important;
+    margin-left:-4px !important;
+    color: #2396C3 !important;
+    font-weight: bold !important;
+}
+.get_preorder {
+    font-size:11px !important;
+}
+.deliverydate_preorder {
+    font-weight: bold !important;
+    font-size: 11px !important;
+}
+.price_preorder_linethrough {
+    text-decoration: line-through!important;
+    color: #B12704!important;
+    font-size: 13px !important;
+    padding-left: 4px !important;
+}
+.promopopover_preorder {
+    font-weight: 600 !important;
+    font-size: 11px !important;
+    color: #2396C3 !important;
+    cursor: pointer !important;
+}
+.seedetails_preorder {
+    font-size: 11px !important;
+    color: #2396C3 !important;
+    font-weight: 500 !important;
+}
+.starrating_popover {
+    width: 6rem !important;
+}
