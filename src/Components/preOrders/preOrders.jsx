@@ -8,7 +8,7 @@ import './preOrders.css';
 
 import { Row, Col, Card, CardHeader, CardBody,Popover,PopoverBody,PopoverHeader} from "reactstrap";
 
-const Order = (props) => {
+const PreOrders = (props) => {
 
   const [promoPopover, setPromoPopover] = useState(false);
   const [starRatingPopover, setStarRatingPopOver] = useState(false);
@@ -92,4 +92,4 @@ const Order = (props) => {
   }
 
 
-export default Order;
+export default PreOrders;
