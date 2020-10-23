@@ -5,6 +5,7 @@ import { DefaultLayout } from "./layouts";
 import Lander from "./Components/lander/lander";
 import Deals from "./Components/deals/deals";
 import PreOrders from "./Components/preOrders/preOrders";
+import Order from "./Components/order/order";
 
 export default [
     {
@@ -23,6 +24,12 @@ export default [
         path: "/preorders",
         exact: true,
         component: PreOrders,
+        layout: DefaultLayout
+    },
+    {
+        path: "/order",
+        exact: true,
+        component: Order,
         layout: DefaultLayout
     }
 ];
