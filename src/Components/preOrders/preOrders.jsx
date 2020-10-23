@@ -29,7 +29,9 @@ const PreOrders = (props) => {
   
     return (
       <div className="container-fluid">
-        
+        <Row>
+          <Col md="2" className="sidebar_preorder"></Col>
+          <Col md="10">
             <Row className="mt-4">
               <Col md="4">
                 <Card className="card_preorder">
@@ -347,6 +349,8 @@ const PreOrders = (props) => {
               </Col>
             </Row>
             <hr/>
+          </Col>
+        </Row>
       </div>
     );
   }
