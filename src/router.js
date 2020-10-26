@@ -6,6 +6,7 @@ import Lander from "./Components/lander/lander";
 import Deals from "./Components/deals/deals";
 import PreOrders from "./Components/preOrders/preOrders";
 import Order from "./Components/order/order";
+import AdminForm from "./Components/adminForm/adminForm";
 
 export default [
     {
@@ -30,6 +31,12 @@ export default [
         path: "/order",
         exact: true,
         component: Order,
+        layout: DefaultLayout
+    },
+    {
+        path: "/adminForm",
+        exact: true,
+        component: AdminForm,
         layout: DefaultLayout
     }
 ];

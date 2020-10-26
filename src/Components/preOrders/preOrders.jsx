@@ -32,6 +32,21 @@ const PreOrders = (props) => {
         <Row>
           <Col md="2" className="sidebar_preorder"></Col>
           <Col md="10">
+          <Row>
+          <Col md="12 mt-2">
+            <Card className="sortcard_preorder">
+              <CardBody className="sortcardbody_preorder">
+                <div className="float-right">
+                <span>Sort By</span>&nbsp;&nbsp;
+                <select>
+                  <option value="high">High to Low</option>
+                  <option value="low">Low to High</option>
+                </select>
+                </div>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
             <Row className="mt-4">
               <Col md="4">
                 <Card className="card_preorder">
@@ -357,3 +372,5 @@ const PreOrders = (props) => {
 
 
 export default PreOrders;
+
+
