@@ -14,7 +14,7 @@ const Register = (props) => {
     setState({ ...state, [e.target.name]: e.target.value });
   };
 
-  const onSubmit = () => {
+  const onSubmit = () => { 
     const userData = {
       name: state.name,
       email: state.email,
