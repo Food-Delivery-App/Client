@@ -58,12 +58,13 @@ const AdminForm = (props) => {
             splFeature: inputFields.splFeature,
             resolution: inputFields.resolution,
             itemWeight: inputFields.itemWeight,
-            description: inputFields.description,
+            description: inputFields.description, 
             productImg: inputFields.productImg
         }
-        axios.post("api/data/adminform",formData)
+        axios.post("http://localhost:3000/api/products",formData)
           .then(res => {
               let result = res.data;
+              console.log(result);              
           })
     }
 
@@ -102,7 +103,7 @@ const AdminForm = (props) => {
                 MRP Price
               </Label>
               <Col sm={8}>
-                <Input type="text" name="MRPPrice" id="MRPPrice" onChange={inputHandler} value={inputFields.MRPPrice} />
+                <Input type="number" name="MRPPrice" id="MRPPrice" onChange={inputHandler} value={inputFields.MRPPrice} />
               </Col>
             </FormGroup>
             <FormGroup row>
@@ -110,7 +111,7 @@ const AdminForm = (props) => {
               Front Camera
               </Label>
               <Col sm={8}>
-                <Input type="text" name="frontCamera" id="frontCamera" onChange={inputHandler} value={inputFields.frontCamera} />
+                <Input type="number" name="frontCamera" id="frontCamera" onChange={inputHandler} value={inputFields.frontCamera} />
               </Col>
             </FormGroup>
             <FormGroup row>
@@ -118,7 +119,7 @@ const AdminForm = (props) => {
               Back Camera
               </Label>
               <Col sm={8}>
-                <Input type="text" name="backCamera" id="backCamera" onChange={inputHandler} value={inputFields.backCamera} />
+                <Input type="number" name="backCamera" id="backCamera" onChange={inputHandler} value={inputFields.backCamera} />
               </Col>
             </FormGroup>
             <FormGroup row>
@@ -134,7 +135,7 @@ const AdminForm = (props) => {
                 Screen Size
               </Label>
               <Col sm={8}>
-                <Input type="text" name="screenSize" id="screenSize" onChange={inputHandler} value={inputFields.screenSize} />
+                <Input type="number" name="screenSize" id="screenSize" onChange={inputHandler} value={inputFields.screenSize} />
               </Col>
             </FormGroup>
             <FormGroup row>
@@ -158,7 +159,7 @@ const AdminForm = (props) => {
                 Resolution
               </Label>
               <Col sm={8}>
-                <Input type="text" name="resolution" id="resolution" onChange={inputHandler} value={inputFields.resolution} />
+                <Input type="number" name="resolution" id="resolution" onChange={inputHandler} value={inputFields.resolution} />
               </Col>
             </FormGroup>
           </Col>
@@ -176,7 +177,7 @@ const AdminForm = (props) => {
                 RAM
               </Label>
               <Col sm={8}>
-                <Input type="text" name="RAM" id="RAM" onChange={inputHandler} value={inputFields.RAM} />
+                <Input type="number" name="RAM" id="RAM" onChange={inputHandler} value={inputFields.RAM} />
               </Col>
             </FormGroup>
             <FormGroup row>
@@ -185,7 +186,7 @@ const AdminForm = (props) => {
               </Label>
               <Col sm={8}>
                 <Input
-                  type="text"
+                  type="number"
                   name="internalStorage"
                   id="internalStorage"
                   onChange={inputHandler} value={inputFields.internalStorage}
@@ -197,7 +198,7 @@ const AdminForm = (props) => {
                 Battery
               </Label>
               <Col sm={8}>
-                <Input type="text" name="battery" id="battery" onChange={inputHandler} value={inputFields.battery} />
+                <Input type="number" name="battery" id="battery" onChange={inputHandler} value={inputFields.battery} />
               </Col>
             </FormGroup>
 
@@ -230,7 +231,7 @@ const AdminForm = (props) => {
                 Item Weight
               </Label>
               <Col sm={8}>
-                <Input type="text" name="itemWeight" id="itemWeight" onChange={inputHandler} value={inputFields.itemWeight} />
+                <Input type="number" name="itemWeight" id="itemWeight" onChange={inputHandler} value={inputFields.itemWeight} />
               </Col>
             </FormGroup>
             <FormGroup row>
@@ -254,7 +255,7 @@ const AdminForm = (props) => {
                 Product Image
               </Label>
               <Col sm={8}>
-                <Input type="file" name="productImg" id="productImg" onChange={inputHandler} value={inputFields.productImg} />
+                <Input type="text" name="productImg" id="productImg" onChange={inputHandler} value={inputFields.productImg} />
               </Col>
             </FormGroup>
           </Col>
