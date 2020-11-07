@@ -1,0 +1,114 @@
+.small-order-img {
+    padding: 10px;
+}
+
+.small-order-img-active {
+    border: 1px solid #E47911 !important;
+    border-radius: 0px !important;
+}
+
+.blue {
+    color: #0066c0;
+}
+
+.font-weight {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.order-ratings {
+    padding-left: 10px;
+}
+
+.order-ratings-brand {
+    font-size: 13px;
+}
+
+.order-choice-main {
+    display: inline-flex;
+}
+
+.order-choice {
+    height: 22px;
+    background-color: #232F3E;
+    border-color: #232F3E;
+    font-size: small;
+}
+
+.order-choice-white {
+    color: #fff;
+    line-height: 22px;
+    margin-left: 8px;
+    margin-right: 3px;
+}
+
+.order-choice-orange {
+    color: #F69931;
+    line-height: 22px;
+    margin-left: 8px;
+    margin-right: 3px;
+}
+
+.order-choice-triangle{
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 22px solid;
+    color: #232F3E;
+}
+
+.order-choice-bottom {
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 1rem;
+}
+
+.order-price {
+    color: #B12704!important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+}
+
+.order-prime_text {
+    margin-left: -4px !important;
+    color: #2396C3 !important;
+    font-weight: bold !important;
+}
+
+.order-delivery-day {
+    font-weight: bolder;
+}
+
+.order-no-contact-delivery {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.order-instock-green {
+    color: #007600!important;
+    font-size: 18px;
+}
+
+.order-style {
+    display: inline;
+    color: #888;
+    font-weight: 400;
+}
+
+.order-storage {
+    font-size: 14px !important;
+    padding: 8px !important;
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 0px !important;
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.order-storage-active {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    padding: 8px !important;
+    border: 1px solid #E47911 !important;
+    border-radius: 0px !important;
+    background: #fefaf6 !important;
+    color: #000 !important;
+}
