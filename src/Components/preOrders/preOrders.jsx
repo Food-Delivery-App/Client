@@ -32,6 +32,21 @@ const PreOrders = (props) => {
         <Row>
           <Col md="2" className="sidebar_preorder"></Col>
           <Col md="10">
+          <Row>
+          <Col md="12 mt-2">
+            <Card className="sortcard_preorder">
+              <CardBody className="sortcardbody_preorder">
+                <div className="float-right">
+                <span>Sort By</span>&nbsp;&nbsp;
+                <select>
+                  <option value="high">High to Low</option>
+                  <option value="low">Low to High</option>
+                </select>
+                </div>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
             <Row className="mt-4">
               <Col md="4">
                 <Card className="card_preorder">
@@ -53,7 +68,7 @@ const PreOrders = (props) => {
                     <span className="save_preorder">You Save: ₹ 3000 (3.4%)</span><br/>
                     <span className="prime_preorder"><img src={tick} width="20px" /><small className="prime_preorder_text">prime</small></span><br/>
                     <span className="get_preorder">Get it by <span className="deliverydate_preorder">Fri, Oct 23</span></span><br/>
-                    <span>and <span id="promotionPopOver1" className="promopopover_preorder">1 more promotion</span></span><br/>
+                    <small>and <span id="promotionPopOver1" className="promopopover_preorder">1 more promotion</span></small><br/>
                     <Popover trigger="hover" placement="bottom" isOpen={promoPopover1} target="promotionPopOver1" toggle={promoPopOver1}>
                       <PopoverBody><ul><li>No Cost EMI available on select cards</li></ul>
                         <span className="seedetails_preorder">See Details</span>
@@ -154,11 +169,11 @@ const PreOrders = (props) => {
                     <CardBody className="cardbody_mobile">
                     <h6 className="modelName" title="OnePlus 8 (Glacial Green 6GB RAM+128GB Storage)">OnePlus 8 (Glacial Green 6GB RAM+128GB Storage)</h6>
                     <span className="brand_Name">by OnePlus</span><br/>
-                    <span className="price_preorder">₹ 27,999</span><span className="price_preorder_linethrough">₹ 30,999</span><br/>
-                    <span className="save_preorder">You Save: ₹ 3000 (3.4%)</span><br/>
+                    <span className="price_preorder">₹ 29,999</span><span className="price_preorder_linethrough">₹ 31,999</span><br/>
+                    <span className="save_preorder">You Save: ₹ 2000 (3.4%)</span><br/>
                     <span className="prime_preorder"><img src={tick} width="20px" /><small className="prime_preorder_text">prime</small></span><br/>
-                    <span className="get_preorder">Get it by <span className="deliverydate_preorder">Fri, Oct 23</span></span><br/>
-                    <span>and <span id="promotionPopOver2" className="promopopover_preorder">1 more promotion</span></span><br/>
+                    <span className="get_preorder">Get it by <span className="deliverydate_preorder">Fri, Oct 19</span></span><br/>
+                    <small>and <span id="promotionPopOver2" className="promopopover_preorder">1 more promotion</span></small><br/>
                     <Popover trigger="hover" placement="bottom" isOpen={promoPopover2} target="promotionPopOver2" toggle={promoPopOver2}>
                       <PopoverBody><ul><li>No Cost EMI available on select cards</li></ul>
                         <span className="seedetails_preorder">See Details</span>
@@ -259,11 +274,11 @@ const PreOrders = (props) => {
                     <CardBody className="cardbody_mobile">
                     <h6 className="modelName" title="OnePlus 8 Pro (Ultramarine Blue 12GB RAM+256GB Storage)">OnePlus 8 Pro (Ultramarine Blue 12GB RAM+256GB Storage)</h6>
                     <span className="brand_Name">by OnePlus</span><br/>
-                    <span className="price_preorder">₹ 27,999</span><span className="price_preorder_linethrough">₹ 30,999</span><br/>
-                    <span className="save_preorder">You Save: ₹ 3000 (3.4%)</span><br/>
+                    <span className="price_preorder">₹ 45,999</span><span className="price_preorder_linethrough">₹ 49,999</span><br/>
+                    <span className="save_preorder">You Save: ₹ 4000 (3.4%)</span><br/>
                     <span className="prime_preorder"><img src={tick} width="20px" /><small className="prime_preorder_text">prime</small></span><br/>
-                    <span className="get_preorder">Get it by <span className="deliverydate_preorder">Fri, Oct 23</span></span><br/>
-                    <span>and <span id="promotionPopOver3" className="promopopover_preorder">1 more promotion</span></span><br/>
+                    <span className="get_preorder">Get it by <span className="deliverydate_preorder">Fri, Oct 25</span></span><br/>
+                    <small>and <span id="promotionPopOver3" className="promopopover_preorder">1 more promotion</span></small><br/>
                     <Popover trigger="hover" placement="bottom" isOpen={promoPopover3} target="promotionPopOver3" toggle={promoPopOver3}>
                       <PopoverBody><ul><li>No Cost EMI available on select cards</li></ul>
                         <span className="seedetails_preorder">See Details</span>
@@ -357,3 +372,5 @@ const PreOrders = (props) => {
 
 
 export default PreOrders;
+
+

@@ -145,6 +145,10 @@ const Lander = (props) => {
           <Card>
           <CardHeader>
               <h4 className="font-weight-bold">Up to 55% off | Video Games</h4>
+              <Button onClick={() => {
+                localStorage.clear();
+                window.location.href = 'login';
+              }}>Log Out</Button>
             </CardHeader>
             <CardImg className='p-3' top width="100%" src={cardImg4} alt="Card image cap" />
             <CardBody>
